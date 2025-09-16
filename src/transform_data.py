@@ -90,7 +90,12 @@ def clean_flights(flights_df):
         'on_ground',        # Boolean: is aircraft on ground
         'velocity',         # Ground speed in m/s
         'true_track',       # Aircraft heading in degrees
-        'vertical_rate'     # Vertical speed in m/s
+        'vertical_rate',     # Vertical speed in m/s
+        '12',
+        '13',
+        '14',
+        '15',
+        '16'
     ]
     
     # Make a copy to avoid modifying the original
