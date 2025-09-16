@@ -53,7 +53,7 @@ Make sure you have installed:
 4. **Create PostgreSQL database**:
    ```bash
    # Connect to PostgreSQL
-   psql -U your_username -d postgres
+   
    
    # Create database
    CREATE DATABASE airlife_db;

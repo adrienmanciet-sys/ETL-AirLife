@@ -32,9 +32,10 @@ def clean_airports(airports_df):
     
     # TODO: Remove rows with missing latitude or longitude
     # Hint: Use .dropna(subset=['latitude', 'longitude'])
-    # df = df.dropna(subset=['latitude', 'longitude'])
+    df = df.dropna(subset=['latitude', 'longitude'])
     
     # TODO: Remove airports with invalid coordinates
+    df = df[(df['latitude'>= -90]) & (df['latitude'] <= 90)]
     # Latitude should be between -90 and 90
     # Longitude should be between -180 and 180
     # Hint: df = df[(df['latitude'] >= -90) & (df['latitude'] <= 90)]
