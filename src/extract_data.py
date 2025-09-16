@@ -26,7 +26,7 @@ def extract_airports():
         # Hint: Use pd.read_csv()
         df = pd.read_csv("data/airports.csv")
         # For now, return an empty DataFrame
-        df = pd.DataFrame()
+        # df = pd.DataFrame()
         
         # TODO: Print how many airports were loaded
         # Example: print(f"Loaded {len(df)} airports")
@@ -82,7 +82,7 @@ def extract_flights():
         print(f"Found {len(df)} active flights")
         # For now, return empty DataFrame
         print("⚠️  Flight extraction not yet implemented")
-        return pd.DataFrame()
+        return df
         
     except requests.exceptions.RequestException as e:
         print(f"❌ Network error fetching flight data: {e}")
