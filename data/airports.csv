@@ -1,4 +1,4 @@
-<id,name,city,country,iata_code,icao_code,latitude,longitude,altitude
+id,name,city,country,iata_code,icao_code,latitude,longitude,altitude
 1,"Charles de Gaulle Airport","Paris","France","CDG","LFPG",49.012779,2.55,392
 2,"London Heathrow Airport","London","United Kingdom","LHR","EGLL",51.4706,-0.461941,83
 3,"Amsterdam Airport Schiphol","Amsterdam","Netherlands","AMS","EHAM",52.308601,4.76389,-11
